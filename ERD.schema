@@ -1,0 +1,32 @@
+manufacturers
+---
+id INT PK
+manufacturer VARCHAR
+country VARCHAR
+
+models
+---
+id INT PK 
+manufacturer FK >- manufacturers.id
+model VARCHAR
+body_type FK >- types.id
+msrp_price INT
+engine_size FLOAT
+cylinders INT
+horsepower INT
+drive_train FK >- drive_trains.id
+
+types
+---
+id INT PK
+body_type VARCHAR
+
+drive_trains
+---
+id INT PK
+train_type VARCHAR 
+
+sales_figures
+---
+id PK FK - models.id
+volume INT
