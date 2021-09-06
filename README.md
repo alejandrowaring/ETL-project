@@ -6,7 +6,7 @@ This project is indended to help a new car manufacturer decide on what specs to 
  - Engine Size
  - Engine Location
  - Horsepower
- - Drive Train
+ - Fuel Efficiency
  - Car Price
  - Car Sales numbers
 ### Target Audience
