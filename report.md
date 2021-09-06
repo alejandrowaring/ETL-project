@@ -134,3 +134,7 @@ ON m.id=f.id
 JOIN pricing_spec as p
 ON m.id = p.id
 ```
+
+Screenshot of a snippit of the pgAdmin screen with the query from above
+
+![pgAdmin](<Screenshot 2021-09-06 212441.png>)
