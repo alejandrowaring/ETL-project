@@ -4,7 +4,7 @@
 
 ### Introduction:
 
-This project is indended to help a new car manufacturer decide on what specs to apply to a new car to get the best sales possible. This will take into account:
+This project is indended to help a new car manufacturer decide on what specs to apply to a new car to get the best sales possible. This will take into account aggregations of:
  - Engine Size
  - Engine Location
  - Horsepower
@@ -32,7 +32,7 @@ Friday:
  - Complete Final report
  - Submit
 
-### Data Sets:
+### Possible Data Sets:
 https://www.kaggle.com/toramky/automobile-dataset
 
 https://www.kaggle.com/ljanjughazyan/cars1
