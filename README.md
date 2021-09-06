@@ -1,5 +1,7 @@
 # ETL-project
 
+## Final Report can be found [Here](report.md)
+
 ### Introduction:
 
 This project is indended to help a new car manufacturer decide on what specs to apply to a new car to get the best sales possible. This will take into account:
