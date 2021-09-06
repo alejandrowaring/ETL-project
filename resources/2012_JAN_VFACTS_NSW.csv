@@ -1,31 +1,42 @@
-Make,Model,Volume
-Chery,J1,5
-Ford,Fiesta,205
-Holden,Barina,380
-Holden,Barina Spark,48
-Honda,City,4
-Honda,Jazz,33
-Hyundai,Accent,213
-Hyundai,Getz,0
-Hyundai,i20,213
-Kia,Rio,196
-Mazda,Mazda2,591
-Mitsubishi,Colt,19
-Nissan,Micra,112
-Proton, S16,9
-Proton,Satria,3
-Skoda,Fabia,6
-Smart,Fortwo,4
-Suzuki,Alto,33
-Suzuki,Swift,226
-Toyota,Yaris,491
-Volkswagen,Polo,61
-Alfa Romeo,MiTo,11
-Citroen,C3,9
-Citroen,DS3,10
-Fiat,500,13
-Fiat,Abarth 500,4
-Mitsubishi,i-MiEV,2
-Peugeot,207,15
-Renault,Clio,1
-
+Make,Passenger_Volume,SUV_Volume
+Alfa Romeo,31,0
+Aston Martin,2,0
+Audi,240,220
+Bentley,2,0
+BMW,239,158
+Chery,9,31
+Chrysler,2,0
+Citroen,64,0
+Dodge,32,3
+Ferrari,3,0
+Fiat,17,0
+Ford,1054,268
+Holden,1754,507
+Honda,486,64
+Hyundai,1441,276
+Jaguar,28,0
+Jeep,0,302
+Kia,617,152
+Lamborghini,1,0
+Land Rover,0,228
+Lexus,152,40
+Lotus,2,0
+Maserati,6,0
+Mazda,2162,535
+Mercedes-Benz,224,20
+MINI,24,21
+Mitsubishi,505,487
+Morgan,1,0
+Nissan,228,730
+Peugeot,90,19
+Porsche,12,34
+Proton,18,0
+Renault,29,8
+Skoda,51,17
+Smart,4,0
+Ssangyong,2,16
+Subaru,462,828
+Suzuki,334,114
+Toyota,2549,1237
+Volkswagen,814,176
+Volvo Car,65,123

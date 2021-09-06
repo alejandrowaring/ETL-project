@@ -1,32 +1,56 @@
-manufacturers
+makes
 ---
 id INT PK
-manufacturer VARCHAR
-country VARCHAR
+make VARCHAR
+origin VARCHAR
+car_count INT
 
-models
+pricing_spec
 ---
-id INT PK 
-manufacturer FK >- manufacturers.id
-model VARCHAR
-body_type FK >- types.id
-msrp_price INT
-engine_size FLOAT
-cylinders INT
-horsepower INT
-drive_train FK >- drive_trains.id
+id INT PK FK - makes.id
+min_msrp FLOAT
+avg_msrp FLOAT
+max_msrp FLOAT
 
-types
+engine_spec
 ---
-id INT PK
-body_type VARCHAR
+id INT PK FK - makes.id
+min_engine_size FLOAT
+avg_engine_size FLOAT
+max_engine_size FLOAT
+min_cylinders FLOAT
+avg_cylinders FLOAT
+max_cylinders FLOAT
+min_horsepower FLOAT
+avg_horsepower FLOAT
+max_horsepower FLOAT
 
-drive_trains
+fuel_spec
 ---
-id INT PK
-train_type VARCHAR 
+id INT PK FK - makes.id
+min_mpg_city FLOAT
+avg_mpg_city FLOAT
+max_mpg_city FLOAT
+min_mpg_highway FLOAT
+avg_mpg_highway FLOAT
+max_mpg_highway FLOAT
 
-sales_figures
+chassis_spec
 ---
-id PK FK - models.id
-volume INT
+id INT PK FK - makes.id
+min_weight FLOAT
+avg_weight FLOAT
+max_weight FLOAT
+min_wheelbase FLOAT
+avg_wheelbase FLOAT
+max_wheelbase FLOAT
+min_length FLOAT
+avg_length FLOAT
+max_length FLOAT
+
+sales_data
+---
+id INT PK FK - makes.id
+passenger_vol INT
+suv_vol INT
+total_vol INT
